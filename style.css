@@ -1,0 +1,177 @@
+nav{
+    background-color: #9D4502;
+    font-weight: 600;
+}
+
+#navbarSupportedContent a{
+    color: #FFEBDC;
+}
+
+.navbar-toggler{
+    background-color: #FFEBDC;
+}
+
+/* monthly menu */
+
+#menu{
+    text-align: center !important;
+    margin-top: 25px !important;
+    margin-bottom: 25px !important;
+    color: #9D4502;
+    text-shadow: 3px 2px 5px #FC7307;
+}
+
+
+.thead-dark th{
+    background-color: #FEAB6D !important;
+    border: none !important;
+    
+}
+
+/* service cards */
+
+.service-cards .c{
+    text-align: center;
+    width: 350px;
+    margin: 20px;
+    border: 1px solid #9D4502;
+    box-shadow: 3px 2px 4px #341C09;
+
+}
+
+.service-cards{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.c div{
+    color: #FC7307;
+    font-size: 40px;
+}
+
+.c h3{
+    color: #9D4502;
+}
+
+/* footer */
+
+footer{
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer div{
+    margin: 25px;
+    color: white; 
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: #FFEBDC;
+}
+
+footer a:focus{
+    text-decoration: underline;
+}
+
+/* copyright */
+
+#cr{
+    background-color: white;
+    color: #9D4502;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* deals.html */
+/* deals */
+
+.card{
+    margin: 10px;
+}
+
+#deals{
+    text-align: center !important;
+    margin-top: 35px !important;
+    margin-bottom: 50px !important;
+    color: #9D4502;
+    text-shadow: 3px 2px 5px #FC7307;
+}
+
+.btn{
+    background-color: #FC7307;
+    border: #9D4502;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #FC7307;
+    border: #9D4502;
+    color: white;
+}
+
+.btn:focus{
+    background-color:#9D4502 ;
+    border: #9D4502;
+    color: white;
+    box-shadow: none;
+}
+
+
+/* about.html */
+
+#about{
+    text-align: center !important;
+    margin-top: 25px !important;
+    margin-bottom: 25px !important;
+    color: #9D4502;
+    text-shadow: 3px 2px 5px #FC7307;
+}
+
+.about{
+    margin: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: justify;
+    
+    
+}
+
+/* contact.html */
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: justify;
+    margin: 30px;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+#contact{
+    text-align: center !important;
+    margin-top: 25px !important;
+    margin-bottom: 25px !important;
+    color: #9D4502;
+    text-shadow: 3px 2px 5px #FC7307;
+}
+
+.hero-header{
+    width: 100%;
+    height: auto;
+}
